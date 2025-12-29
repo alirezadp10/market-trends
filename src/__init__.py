@@ -11,6 +11,7 @@ from .config import (
     get_market_persian_name,
     get_weekday_persian_name,
 )
+from .settings import settings, Settings
 from .data_loader import load_market_data, load_events, save_market_data
 from .transformers import (
     enrich_dataframe,
